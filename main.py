@@ -1,7 +1,7 @@
 def find_exp(num):
     exp = 0
-    while num != 1:
-        num /= 3
+    while num > 1:
+        num //= 3
         exp += 1
     return exp
 
